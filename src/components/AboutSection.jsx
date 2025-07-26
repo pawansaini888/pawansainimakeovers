@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import pawan from "../assets/makeup/pawan.webp";
 import pawanAward from "../assets/pawan/pawanAward.webp";
 import pawan3 from "../assets/pawan/pawan3.webp";
+import a from "../assets/creativeWork/5DS_0088.JPG";
 
 const AboutSection = () => {
   return (
@@ -13,7 +14,7 @@ const AboutSection = () => {
         <div className="flex gap-4 h-full">
           <div className="w-1/2 flex flex-col gap-4">
             <motion.img
-              src={pawanAward}
+              src={a}
               alt="Makeup artist working"
               className="rounded-2xl w-full object-cover h-64 shadow-lg"
               whileHover={{ scale: 1.02 }}
