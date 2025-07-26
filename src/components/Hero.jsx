@@ -92,7 +92,7 @@ const Hero = () => {
             <span className="text-rose-500">With Passion</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg">
-            I've alway  passionate about transforming faces and bringing out the best in every individual.
+            I've always been passionate about transforming faces and bringing out the best in every individual.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link to='/portfolio'>
